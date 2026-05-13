@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+	<title>Lumière</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/setup.css">
+
+	<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+  
+</head>
+<body>
+<div class="code-bg">
+	<div class="container">
+		
+<!-- HEADER -->		
+		<div class="header" id="navbar">
+
+			<!-- logo -->
+			<div class="logo">
+				<img src="img/logo-01.png">
+			</div>
+
+
+			<div class="search1">
+				<form>
+				<img src="img/search-01.png">
+				<input type="" name="">
+				</form>
+			</div>
+
+
+			
+
+			<!-- nav-bar-1 -->
+			<div class="nav-bar">
+				<nav>
+					<a href="../internal home/internal home.html"><li>HOME</a></li>
+					<a href="#wrapper-movies"><li><div class="dropdown">
+			<div class="dropdown__select">
+				<span class="dropdown__selected" style="font-family: neo-reg; color: #;">Movies</span>
+			</div>
+
+			<ul class="dropdown__list">
+				<a href="../top-trending/top-trending.html"><li class="dropdown__item" style="width: 150px; height: 50px;margin-top: 7px;">
+					<span class="dropdown__text"><p style="font-size: 17px; padding-top:14px; font-family: neo-reg">top film</p></span>
+				</li></a>
+				<a href="../genres/genres.html"><li class="dropdown__item" style="width: 150px; height: 50px;left: -;">
+					<span class="dropdown__text"><p style="font-size: 17px;; padding-top:14px; font-family: neo-reg">genres</p></span>
+				</li></a>
+				<a href="../my list/my list.html"><li class="dropdown__item" style="width: 150px; height: 50px;left:px;">
+					<span class="dropdown__text"><p style="font-size: 17px; padding-top:14px; font-family: neo-reg">my list</p></span>
+				</li></a>
+				<li class="dropdown__item" style="width: 150px; height: 50px;left: -35px;">
+					<span class="dropdown__text"><p style="font-size: 17px; padding-top:14px; font-family: neo-reg">all film</p></span>
+				</li>
+			</ul>
+		</div></a></li>
+					<a href="../magazine/magazine.html"><li>MAGAZINE</a></li>
+					<a href="../crown/crown.html"><li>CROWN</a></li>
+				</nav>
+			</div>
+
+			<!-- nav-bar-2 -->
+			<div class="nav-bar-2">
+				<nav>
+					<a href="#"><li><img src="img/pp.png" style="height: 22px; margin-right: 10px;">Double H</a></li>
+					
+					<a href="#"><li><div class="dropdown">
+			<div class="dropdown__select">
+				<span class="dropdown__selected"><img src="img/dropdown-01.png" style="width:30px; height: auto;margin-top: 0.1px;"></span>
+			</div>
+
+			<ul class="dropdown__list" style="margin-left:-50px; top:23px">
+				<li class="dropdown__item" style="width: 150px; height: 50px;margin-top: 7px;">
+					<span class="dropdown__text"><p style="font-size: 17px; padding-top:14px; font-family: neo-reg">ABOUT</p></span>
+				</li>
+				<li class="dropdown__item" style="width: 150px; height: 50px;left: -;">
+					<span class="dropdown__text"><p style="font-size: 17px; padding-top:14px; font-family: neo-reg">SETTING</p></span>
+				</li>
+				<li class="dropdown__item" style="width: 150px; height: 50px;left: -35px;">
+					<span class="dropdown__text"><p style="font-size: 17px; padding-top:14px; font-family: neo-reg">SIGN OUT</p></span>
+				</li>
+				
+			</ul>
+		</div></a></li>
+				</nav>
+			</div>
+		</div>	
+		<script type="text/javascript">
+			var lastScrollTop = 0;
+					navbar = document.getElementById("navbar");
+			window.addEventListener("scroll", function(){
+					var scrollTop = window.pageYOffset || document
+							.documentElement.scrollTop;
+					if (scrollTop > lastScrollTop){
+							navbar.style.top="-80px";
+					}	else {
+							navbar.style.top="0";
+					}
+					lastScrollTop = scrollTop;
+			})
+		</script>
+
+
+
+
+
+
+
+
+
+<div class="cover">
+		
+			<img src="img/large-infor.svg">
+			
+			
+		</div>
+		<div style="position:relative; margin-top: 1062px;">GENRES</div>
+		<div class="intro">
+			<div>
+				<h3>DECEMBER 12</h3>
+				<h1>THE END OF <br>THE FREAKING WORLD</h1>
+				<p>Directed by Entwistle and Lucy Tcherniak, and written by <br>Charlie Covell, the rest of TEOTFW's lean eight-episode <br>run hews to the thrust of Forsman's book, giving James and <br>Alyssa no dearth of obstacles.</p>
+				<div style="display: flex; width: 600px; justify-content: space-between; margin-top: 90px;">
+					<div style="display: flex;width: 180px; justify-content: space-between;"><h4>Watch</h4><a href="../watch/watch.html"><img src="img/play-100.svg" style="cursor: pointer;"></a></div>
+					<div style="display: flex;width: 260px; justify-content: space-between;"><h4>Add to My list</h4><a href="#" onclick="toggle()"><img src="img/add-100.svg" style="cursor: pointer;"></a></div>
+				</div>
+			</div>
+
+			<div id="popup">
+					
+					<a href="#" onclick="toggle()"><button><img src="img/x.svg"></button></a>
+					<img src=img/logo-01.png style="width: 50px;">
+					<h3 style="margin-top:40px; font-family:neo-reg; font-size:30px; text-align:center; color: black;">Film added to My list</h3>
+					
+					<a href="#" onclick="toggle()"><button class="try" style="width: 300px; height: 60px; background: #db7428; margin-left: 135px; margin-top: 40px; font-family:tt-bold;
+					letter-spacing: 1px;font-size: 26px;color: #fff;">Next</button></a>
+				</div>
+				<script type="text/javascript">
+					function toggle(){
+						
+						var popup = document.getElementById('popup');
+						popup.classList.toggle('active');
+					}
+				</script>
+
+
+			<div>
+				<div class="star" >
+					<img src="img/star.svg">
+					<li class="star1" >8.5</li>
+					<li class="star2">/ 10</li>
+					<li class="star3">9.990 RATINGS</li>
+				</div>
+				<div class="trailers">
+				<div class="star4">TRAILERS</div>
+				<img src="img/t1.svg" style="margin-left: 700px; margin-top:20px; cursor: pointer;">
+				<img src="img/t2.svg" style="margin-left: 700px; margin-top:20px; cursor: pointer;">
+				</div>
+			</div>
+		</div>	
+
+		
+		<div class="premise">
+			<div>
+				<h2 style="color:black">Premise</h2>
+				<p>James is a 17-year-old who believes he is a psychopath. He kills animals as a hobby, but grows bored of the <br>practice. He decides he wants to try killing a human. He settles on Alyssa; a mouthy, rebellious 17-year-old <br>classmate with issues of her own. She proposes they run away together, hoping for an adventure away from <br>her turbulent home-life, and James agrees with the intention of finding an opportunity to kill her. They <br>embark on a road trip across England, and begin to develop a relationship after a series of mishaps. <br><br>However in series 2 they grow distant and Alyssa proposes to another man. But someone thirsty for revenge <br>for what they did hunts them down, bringing them together once again.<span id="dots">...</span><span id="more"> <br><br>With their newfound freedom, Alyssa and James play laser tag but end up having to dine and dash at a <br>restaurant after realising they have spent all their money. Alyssa suggests they attempt to have sex while <br>driving, but while getting undressed they swerve off the road and crash into a tree. They hitchhike in the <br>van of Martin, a middle-aged man to whom Alyssa quickly dislikes. While in the toilets of the restaurant <br>they have stopped at for food, Martin follows James and asks about his burnt hand, before smelling it and <br>putting it on his crotch; James is submissive, despite being disgusted by it. Alyssa sees this and blackmails <br>Martin into giving her his wallet. After booking a hotel room, Alyssa goes to the bathroom and cries, while <br>James waits with his knife by the door, hesitantly. He softens when he hears her crying and puts his knife <br>away; Alyssa calls home and her stepfather Tony answers. He denies her request to speak to her mother, <br>Gwen, implying his dominance over her mother. Alyssa asks James whether he wants her or just goes <br>along with her; he replies that he wants her. She decides to go see her father, Leslie, whom she has not <br>seen since she was 8 years old; James agrees to join her.</span></p>
+				<button onclick="myFunction()" id="myBtn" style="border: none ; border: 2px solid #999; color: #666; background: none; margin-top:30px;margin-left: px; cursor: pointer;padding: 10px 20px;font-family: neo-med; font-size: 20px;">More<!-- <img src="img/more.svg"> --></button>
+			</div>
+			<script>
+				function myFunction() {
+				  var dots = document.getElementById("dots");
+				  var moreText = document.getElementById("more");
+				  var btnText = document.getElementById("myBtn");
+
+				  if (dots.style.display === "none") {
+				    dots.style.display = "inline";
+				    btnText.innerHTML = "More"; 
+				    moreText.style.display = "none";
+				  } else {
+				    dots.style.display = "none";
+				    btnText.innerHTML = "Less"; 
+				    moreText.style.display = "inline";
+				  }
+				}
+			</script>
+			<img src="img/premise-img.svg" style="margin-left:130px;width: 400px; position: static;">
+		</div>
+
+
+<!-- AWARDS&FESTIVAL -->
+		<div style="margin-left: 175px; margin-top: 50px;margin-right: 100px;">
+			<h2 style="text-transform: uppercase;letter-spacing: 0.5px;font-family: tt-bold; font-size:36px; color: black;">Awards & Festival</h2>
+			<div style="display: flex; margin-top:66px">
+				<div style="position: relative;width: 100%;">
+					<img src="img/laurel.svg" style="margin-left: 15px;">
+					<h4 style="position: absolute; top: 70px; margin-left: 9px; font-family: neo-light; font-size: 30px; text-align: center; color:#666;">Cannes Film Festival <br>2019</h4>
+				</div>
+				<div style="position: relative;width: 100%;">
+					<img src="img/laurel.svg" style="margin-left: 15px;">
+					<h4 style="position: absolute; top: 70px; margin-left: 9px; font-family: neo-light; font-size: 30px; text-align: center;color:#666;"> Academy Honorary <br>2016</h4>
+				</div>
+				<div style="position: relative;width: 100%;">
+					<img src="img/laurel.svg" style="margin-left: 15px;">
+					<h4 style="position: absolute; top: 70px; margin-left: 24px; font-family: neo-light; font-size: 30px; text-align: center;color:#666;">Memorial Award <br>2019</h4>
+				</div>
+				<div style="position: relative;width: 100%;">
+					<img src="img/laurel.svg" style="margin-left: 15px;">
+					<h4 style="position: absolute; top: 70px; margin-left: 9px; font-family: neo-light; font-size: 30px; text-align: center;color:#666;">Humanitarian Award <br>2017</h4>
+				</div>
+				<div style="position: relative;width: 100%;">
+					<img src="img/laurel.svg" style="margin-left: 15px;">
+					<h4 style="position: absolute; top: 70px; margin-left: px; font-family: neo-light; font-size: 30px; text-align: center;color:#666;"> Award of Meritocracy <br>2019</h4>
+				</div>
+			</div>
+			<div style="display: flex; margin-top:66px">
+				<div style="position: relative;width: 100%;">
+					<img src="img/laurel.svg" style="margin-left: 15px;">
+					<h4 style="position: absolute; top: 70px; margin-left: 9px; font-family: neo-light; font-size: 30px; text-align: center;color:#666;">Board of Governors <br>2020</h4>
+				</div>
+				<div style="position: relative;width: 100%;">
+					<img src="img/laurel.svg" style="margin-left: 15px;">
+					<h4 style="position: absolute; top: 70px; margin-left: 30px; font-family: neo-light; font-size: 30px; text-align: center;color:#666;">The Best Picture <br>2016</h4>
+				</div>
+				<div style="position: relative;width: 100%;">
+					<img src="img/laurel.svg" style="margin-left: 15px;">
+					<h4 style="position: absolute; top: 70px; margin-left: 9px; font-family: neo-light; font-size: 30px; text-align: center;color:#666;">Emmys Film Festival <br>2018</h4>
+				</div>
+				<div style="position: relative;width: 100%;">
+					<img src="img/laurel.svg" style="margin-left: 15px;">
+					<h4 style="position: absolute; top: 70px; margin-left: 27px; font-family: neo-light; font-size: 30px; text-align: center;color:#666;"> Melrosity Avenue <br>2019</h4>
+				</div>
+				<div style="position: relative;width: 100%;">
+					<img src="img/laurel.svg" style="margin-left: 15px;">
+					<h4 style="position: absolute; top: 70px; margin-left: 6px; font-family: neo-light; font-size: 30px; text-align: center;color:#666;"> Best Costume Design <br>2017</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-2">
+			<h3 style="color:  black;">Cast & Crew</h3>
+			<div class="owl-carousel owl-theme">
+			    <div class="item"><div class="films"><img src="img/jess.svg"></div><h5>Jessica Barden</h5><h6>Cast / Alyssa</h6></div>
+			    <div class="item"><div class="films"><img src="img/alex.svg"></div><h5>Alex Lawther</h5><h6>Cast / James</h6></div>
+			    <div class="item"><div class="films"><img src="img/naomi.svg"></div><h5>Naomi Ackie</h5><h6>Cast / Bonnie</h6></div>
+			    <div class="item"><div class="films"><img src="img/jonathan.svg"></div><h5>Jonathan Aris</h5><h6>Cast / Professror Clive Koch</h6></div>
+			    <div class="item"><div class="films"><img src="img/jack.svg"></div><h5>Jack Veal</h5><h6>Cast / Young James</h6></div>
+			    <div class="item"><div class="films"><img src="img/mosaku.svg"></div><h5>Wunmi Mosaku</h5><h6>Cast / DC Teri Darego</h6></div>
+			</div>
+		</div>
+
+<!-- COMMENT -->
+		<div style="margin-left: 175px;margin-top: 100px;">
+			<h3 style="text-transform: uppercase;font-family:tt-bold; font-size: 36px; color: black;">Comment</h3>
+			<div style="display: flex;margin-top: 30px; margin-left: 20px;">
+				<img src="img/cm1.svg" >
+				<div style="margin-left:30px; margin-top: 30px;">
+					<h4 style="font-family:neo-bold;font-size:24px">Jordan Williams</h4>
+					<p style="font-family:neo-light; font-size:24px">A great concept and a good setup should have delivered a more transcendent film in this directors capable hands dealing with the theme of <br>the decay and fade of beauty and life. Instead it all feels a bit clunky and heavy handed with visual metaphors feeling artificial and the pace <br>felt a little off as well. 3 stars</p>
+					<div style="display: flex; margin-top: 30px;"><img src="img/empty-heart.svg"><h6 style="margin-left: 20px; font-family: neo-reg;font-size: 20px;">reply</h6></div>
+				</div>
+			</div>
+			<div class="line"></div>
+
+			<div style="display: flex;margin-top: 30px; margin-left: 20px;">
+				<img src="img/cm2.svg" >
+				<div style="margin-left:30px; margin-top: 30px;">
+					<h4 style="font-family:neo-bold;font-size:24px">Bernadette</h4>
+					<p style="font-family:neo-light; font-size:24px">4.5 Je pense que c'est mon film préféré de Kawase, jusqu'à présent. Les choses que j'aime le plus dans ce monde sont les films et les bandes<br>dessinées, donc la perte de la vue est l'une de mes plus grandes peurs. Le portrait de Nagase est plein de pathétique et m'a vraiment<br>profondément.</p>
+					<div style="display: flex; margin-top: 30px;"><img src="img/heart.svg"><h6 style="margin-left: 20px; font-family: neo-reg;font-size: 20px;">reply</h6></div>
+				</div>
+			</div>
+			<div class="line"></div>
+
+			<div style="display: flex;margin-top: 30px; margin-left: 20px;">
+				<img src="img/cm1.svg" >
+				<div style="margin-left:30px; margin-top: 30px;">
+					<h4 style="font-family:neo-bold;font-size:24px">Boryenka</h4>
+					<p style="font-family:neo-light; font-size:24px">Фильм, который попадает прямо в сердце. Я фотограф по жизни, и это заставило меня еще больше отождествить себяс главным героем. <br>Финальная часть фильма была для меня несколько очевидна, но я никогда не видел фильма,посвященного такой теме. <br>Слезы гарантированы.</p>
+					<div style="display: flex; margin-top: 30px;"><img src="img/empty-heart.svg"><h6 style="margin-left: 20px; font-family: neo-reg;font-size: 20px;">reply</h6></div>
+				</div>
+			</div>
+			<div class="line"></div>
+
+			<div style="display: flex;margin-top: 30px; margin-left: 20px;">
+				<img src="img/cm2.svg" >
+				<div style="margin-left:30px; margin-top: 30px;">
+					<h4 style="font-family:neo-bold;font-size:24px">Jordan Williams</h4>
+					<p style="font-family:neo-light; font-size:24px">最初の部分は、感情の伝達と映画のテキストの意味の保存について質問する際に、より良く、まとまりがあります。2つ目は弱く、<br>答えを出すのは楽観的すぎました。</p>
+					<div style="display: flex; margin-top: 30px;"><img src="img/heart.svg"><h6 style="margin-left: 20px; font-family: neo-reg;font-size: 20px;">reply</h6></div>
+				</div>
+			</div>
+			<div class="line"></div>
+
+			<div style="display: flex;margin-top: 30px; margin-left: 20px;">
+				<img src="img/cm3.svg" style="margin-top: 30px;">
+				<div style="margin-left:30px; margin-top: px;">
+					<form>
+					<tr><td><input type="text" placeholder="Comment..." name="" style="font-family:neo-light;font-size:24px; color: #666; border: none; background: no-repeat; height: 100px;"> <br>
+					<input type="submit" name="" value="Submit" style="display: none;"></td></tr>
+					</form>
+				</div>
+			</div>
+			<div class="line"></div>
+		</div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+		
+		
+	</div><!-- c -->
+</div>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="owlcarousel/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
