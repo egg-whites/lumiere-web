@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lumière</title>
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/setup.css">
+
+	<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+
+  	
+</head>
+<body>
+<div class="code-bg">
+	<div class="container">
+		
+<!-- HEADER -->		
+		<div class="header" id="navbar">
+
+			<!-- logo -->
+			<a href="../internal home/internal home.html"><div class="logo">
+				<img src="img/logo-01.png">
+			</div></a>
+			<!-- <div class="search">
+				<img src="img/search.png">
+			</div> -->
+			<div class="search1">
+				<form>
+				<img src="img/search-01.png">
+				<input type="" name="">
+				</form>
+			</div>
+
+			<!-- nav-bar-1 -->
+			<div class="nav-bar">
+				<nav>
+					<a href="../internal home/internal home.html"><li>HOME</a></li>
+					<a href="../movie/indexmovie.html"><li><div class="dropdown">
+			<div class="dropdown__select">
+				<a href="../movie/indexmovie.html"><span class="dropdown__selected" style="font-family: neo-reg; font-weight: lighter;">Movies</span></a>
+			</div>
+
+			<ul class="dropdown__list" style="top:22px">
+				<a href="../top-trending/top-trending.html"><li class="dropdown__item" style="width: 150px; height: 50px;">
+					<span class="dropdown__text"><p style="font-size: 17px; ; padding-top:14px; font-family: neo-light; margin-left: 0px;">top film</p></span>
+				</li></a>
+				<a href="../genres/genres.html"><li class="dropdown__item" style="width: 150px; height: 50px;left: -;">
+					<span class="dropdown__text"><p style="font-size: 17px; ; padding-top:14px; font-family: neo-light; margin-left: 0px;">genres</p></span>
+				</li></a>
+				<a href="../my list/my list.html"><li class="dropdown__item" style="width: 150px; height: 50px;left: px;">
+					<span class="dropdown__text"><p style="font-size: 17px; ; padding-top:14px; font-family: neo-light; margin-left: 0px;">my list</p></span>
+				</li></a>
+				<a href="../movie/indexmovie.html"><li class="dropdown__item" style="width: 150px; height: 50px;left:">
+					<span class="dropdown__text"><p style="font-size: 17px; ; padding-top:14px; font-family: neo-light; margin-left: 0px;">all film</p></span>
+				</li></a>
+			</ul>
+		</div></a></li>
+					<a href="../magazine/magazine.html"><li>MAGAZINE</a></li>
+					<a href="../crown/crown.html"><li>CROWN</a></li>
+				</nav>
+			</div>
+
+			<!-- nav-bar-2 -->
+			<div class="nav-bar-2">
+				<nav>
+					<a href="#"><li><img src="img/pp.png" style="height: 22px; margin-right: 10px;">Double H</a></li>
+					
+					<a href="#"><li><div class="dropdown">
+			<div class="dropdown__select">
+				<span class="dropdown__selected"><img src="img/dropdown-01.png" style="width:30px; height: auto;margin-top: 0.1px;"></span>
+			</div>
+
+			<ul class="dropdown__list" style="margin-left:-50px; top:22px">
+				<a href="../about/about.html"><li class="dropdown__item" style="width: 150px; height: 50px;">
+					<span class="dropdown__text"><p style="font-size: 17px; padding-top:14px; font-family: neo-light; margin-left:0px">ABOUT</p></span>
+				</li></a>
+				<a href="../settings/settings.html"><li class="dropdown__item" style="width: 150px; height: 50px;left: -;">
+					<span class="dropdown__text"><p style="font-size: 17px; padding-top:14px; font-family: neo-light; margin-left:0px">SETTING</p></span>
+				</li></a>
+				<a href="#" onclick="toggle()"><li class="dropdown__item" style="width: 150px; height: 50px;">
+					<span class="dropdown__text"><p style="font-size: 17px; padding-top:14px; font-family: neo-light; margin-left:0px">SIGN OUT</p></span>
+				</li></a>
+				
+			</ul>
+		</div></a></li>
+				</nav>
+			</div>
+		</div>	
+
+			<div id="popup">
+					
+					<a href="#" onclick="toggle()"><button><img src="img/x.svg"></button></a>
+					<img src=img/logo-01.png style="width: 50px;">
+					<h3 style="margin-top:40px; font-family:neo-reg; font-size:30px; text-align:center;margin-bottom: 5px;">Signing Out</h3>
+					<h3 style="text-align: center; font-family: neo-light; font-size:26px">Are you sure you want to sign out?</h3>
+					<a href="../external home/external home.html"><button class="try" style="width: 300px; height: 60px; background: #db7428; margin-left: 135px; margin-top: 40px; font-family:tt-bold;
+					letter-spacing: 1px;font-size: 26px;color: #fff;">Yes</button></a>
+				</div>
+				<script type="text/javascript">
+					function toggle(){
+						
+						var popup = document.getElementById('popup');
+						popup.classList.toggle('active');
+					}
+				</script>
+
+		<script type="text/javascript">
+			var lastScrollTop = 0;
+					navbar = document.getElementById("navbar");
+			window.addEventListener("scroll", function(){
+					var scrollTop = window.pageYOffset || document
+							.documentElement.scrollTop;
+					if (scrollTop > lastScrollTop){
+							navbar.style.top="-80px";
+					}	else {
+							navbar.style.top="0";
+					}
+					lastScrollTop = scrollTop;
+			})
+		</script>
+
+<!-- LATEST MOVIES -->
+		<div class="large">
+			<div>
+				<h3>LATEST MOVIES</h3>
+				<a href="../infor/infor.html"><div class="small">
+					<img src="img/film1.png">
+					<div class="text"><h4>Of Freak and Men</h4>
+					<h5>Now Playing</h5></div>
+				</div></a>
+				<div class="small">
+					<img src="img/film2.png">
+					<div class="text"><h4>Story of Women</h4>
+					<h5>Now Playing</h5></div>
+				</div>
+				<div class="small">
+					<img src="img/film3.png">
+					<div class="text"><h4>Rojo</h4>
+					<h5>Now Playing</h5></div>
+				</div>
+				
+			</div>
+			<div class="main-img">
+				<div class="small-mag">
+					<h3 style="color:white;">The end of the world</h3>
+						<h4>Apocalyptic</h4>
+						<p>Steven Spielberg was originally supposed to direct
+							<br>Interstellar before Christopher Nolan signed on.
+							<br>Here's how his version would have been different.
+						</p>
+						<div class="author">
+							<h4>Jordan Williams</h4>
+							<h5>• 08 MAY 2021</h5>
+						</div>
+				</div>
+					
+					<div class="C-carousel" style="width:1100px; height: auto;">
+  <div class="C-slide"><img src="img/large-film.png" style="width:100%;height: 800px;"></h1></div>
+  <div class="C-slide"><img src="img/film_2.png" style="width:auto;height: 900px;"></div>
+  <div class="C-slide"><img src="img/film_3.png" style="width:100%;height: 900px;"></div>
+  
+  <div class="C-slide"><img src="img/film_4.png" style="width:100%;height: 900px;"></div>
+</div>
+
+<div class="pen-controls">
+  <!-- <button class="js-change-carousel-direction" data-carousel-id="C-carousel-0">Change slider direction</button> -->
+</div>
+				</div>
+		</div>
+
+<div class="line"></div>
+
+
+
+
+<script>
+	new Splide( '.splide' ).mount();
+</script>
+
+
+
+<script>
+	document.addEventListener( 'DOMContentLoaded', function () {
+		new Splide( '.splide' ).mount();
+	} );
+</script>
+
+
+
+
+<!-- CONTINUE WATCHING -->
+		<div class="continue">
+			<h3>Continue watching</h3>
+			<div class="continue-film">
+
+				<a href="../infor/infor.html"><div class="continue-film-1">
+					<img src="img/continue-1.png">
+					<div class="continue-text-1">
+						<h3>Lady birds</h3>
+						<h6>by Greta Gerwig (2019)</h6>
+					</div>
+				</div></a>
+
+				<div class="continue-film-1">
+					<img src="img/continue-2.png">
+					<div class="continue-text-1">
+						<h3>The theory of everything</h3>
+						<h6>by James Marsh (2018)</h6>
+					</div>
+				</div>
+
+				<div class="continue-film-1">
+					<img src="img/continue-3.png">
+					<div class="continue-text-1">
+						<h3>Three Crowns of the Sailor</h3>
+						<h6>by Entwistle (2018)</h6>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+<div class="container-2">
+	<a href="../top-trending/top-trending.html"><h3>Top trending</h3></a>
+	<div class="owl-carousel owl-theme">
+	    <a href="../infor/infor.html"><div class="item"><div class="films"><img src="img/top-1.png"></div><h5>Parasite</h5><h6>Drama</h6></div></a>
+	    <div class="item"><div class="films"><img src="img/top-2.png"></div><h5>Nomadland</h5><h6>Comedy</h6></div>
+	    <div class="item"><div class="films"><img src="img/gen-5.png"></div><h5>My Prince Edward</h5><h6>Drama</h6></div>
+	    <div class="item"><div class="films"><img src="img/top-4.png"></div><h5>A Hometown in Heart</h5><h6>Drama</h6></div>
+	    <div class="item"><div class="films"><img src="img/top-5.png"></div><h5>Apocalypse Now</h5><h6>Drama</h6></div>
+	    <div class="item"><div class="films"><img src="img/gen-4.png"></div><h5>Lo and Behold</h5><h6>Comedy</h6></div>
+
+	</div>
+</div>
+
+
+<div class="container-3">
+	<a href="../genres/genres.html"><h3>Genres</h3></a>
+	<div class="owl-carousel owl-theme">
+	    <div class="item"><div class="films"><img src="img/gen-1.png"></div><h5>Christine</h5><h6>Drama, History</h6></div>
+	    <div class="item"><div class="films"><img src="img/gen-2.png"></div><h5>Get out</h5><h6>Comedy</h6></div>
+	    <div class="item"><div class="films"><img src="img/gen-3.png"></div><h5>The Manuscript</h5><h6>Drama, History</h6></div>
+	    <div class="item"><div class="films"><img src="img/gen-4.png"></div><h5>Lo and Behold</h5><h6>Comedy</h6></div>
+	    <div class="item"><div class="films"><img src="img/gen-5.png"></div><h5>The Godfather</h5><h6>Comedy</h6></div>
+	    <div class="item"><div class="films"><img src="img/top-4.png"></div><h5>A Hometown in Heart</h5><h6>Drama</h6></div>
+	</div>
+</div>
+
+
+<div class="line"></div>
+<!-- MAGAZINE -->
+		<div class="magazine">
+			<a href="../magazine/magazine.html"><h3>Magazine</h3></a>
+			<div class="row">
+				<a href="../magazineread/magazineread.html"><div class="row-r">
+					<img src="img/mag-1.png">
+					<h4>State of the Festival: International Film Festival <br>Oberhausen 2021</h4>
+					<p>"I immediately saw this as an opportunity to paint the <br>fictional portrait of a generation..."</p>
+					<div style="display: flex;"><h5>Christopher Nolan</h5><h5 style="margin-left:10px; font-family: neo-light; color: #666"> • 09 AUG 2021</h5></div>
+				</div></a>
+				<a href="../magazineread/magazineread.html"><div class="row-r">
+					<img src="img/mag-2.png">
+					<h4>State of the Festival: International Film Festival <br>Oberhausen 2021</h4>
+					<p>"I immediately saw this as an opportunity to paint the <br>fictional portrait of a generation..."</p>
+					<div style="display: flex;"><h5>Christopher Nolan</h5><h5 style="margin-left:10px; font-family: neo-light; color: #666"> • 09 AUG 2021</h5></div>
+				</div></a>
+			</div>
+			<div class="row">
+				<a href="../magazineread/magazineread.html"><div class="row-r">
+					<img src="img/mag-3.png">
+					<h4>State of the Festival: International Film Festival <br>Oberhausen 2021</h4>
+					<p>"I immediately saw this as an opportunity to paint the <br>fictional portrait of a generation..."</p>
+					<div style="display: flex;"><h5>Christopher Nolan</h5><h5 style="margin-left:10px; font-family: neo-light; color: #666"> • 09 AUG 2021</h5></div>
+				</div></a>
+				<a href="../magazineread/magazineread.html"><div class="row-r">
+					<img src="img/mag-4.png">
+					<h4>State of the Festival: International Film Festival <br>Oberhausen 2021</h4>
+					<p>"I immediately saw this as an opportunity to paint the <br>fictional portrait of a generation..."</p>
+					<div style="display: flex;"><h5>Christopher Nolan</h5><h5 style="margin-left:10px; font-family: neo-light; color: #666"> • 09 AUG 2021</h5></div>
+				</div></a>
+			</div>
+		</div>
+
+<!-- FOOTER -->
+		<div class="footer">
+			<div class="logo2"><img src="img/logo2-39.png">
+				<p>A film, also called a movie, motion picture or moving picture, is a <br>work of visual art used to simulate experiences that communicate <br>ideas, stories, perceptions, feelings, beauty, or atmosphere through <br>the use of moving images.</p>
+			</div>
+
+			<div class="regulation">
+				<h5>Regulation</h5>
+				<h6>Terms of use</h6>
+				<h6>Privacy policy</h6>
+				<h6>Copyright and liability</h6>
+			</div>
+
+			<div class="contact">
+				<h5>Contact</h5>
+					<li><img src="img/fb-icon.svg"></li>
+					<li><img src="img/gmail-icon.png"></li>
+					<li><img src="img/insta-icon.png"></li>
+			</div>
+
+		</div>
+		<div class="hori">
+			<hr>
+			<h6 style="font-family: neo-light; font-size:20px;">Copyright 2021 Lumière  |  All Rights Reversed.</h6>
+		</div>
+
+
+		</div>
+	</div><!-- c -->
+</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+	
+ 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="owlcarousel/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
