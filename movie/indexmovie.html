@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.">
+    <meta name="author" content="David Deutsch">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    
+	<title> movie </title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <meta name="description" content="WaltzerJS - jQuery Carousel Plugin by Scott Carmichael" />
+    <meta name="keywords" content="WaltzerJS, jQuery, Carousel, Plugin, Scott Carmichael" />
+	
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="owl/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/setup.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="../owl.carousel/assets/css/bootstrapTheme.css" rel="stylesheet">
+    <link href="../owl.carousel/assets/css/custom.css" rel="stylesheet">
+
+	<script type="text/javascript"src="js/all.min.js"	></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery1.min.js"></script>
+	
+   
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+ 	<script type="text/javascript" src="js/script.js"></script>
+ 	<script type="text/javascript"src="js/all.js"	></script>
+
+
+	
+	
+  
+	
+	
+	
+	
+	
+	
+</head>
+<body>
+  <div id="wrapper-mot">
+    <div class="container1">
+    <div class="nav-bar1">
+    <ul class="logo1">
+      <a href="../internal home/internal home.html"><img src="img/logo-01.png"></a>
+    </ul> 
+    
+    <ul class="search1">
+      <form>
+      <img src="img/search-01.png">
+      <input type="" name="">
+      </form>
+    </ul>
+
+    <ul class="home1">
+      <li><a href="../internal home/internal home.html"> HOME </a></li>
+    </ul>
+
+
+
+
+      <ul class="movie">
+      <ul class="menu">
+          <li><a href="../movie/indexmovie.html" style="padding-top: 10px;"> MOVIES </a>
+              <ul class="movie1" style="padding-top: 1px;padding-left: 10px">
+                  <li><a href="../top-trending/top-trending.html"> TOP FILM </a></li>
+                  <li><a href="../genres/genres.html">GENRES</a></li>
+                  <li><a href="../my list/my list.html">MY LIST</a></li>
+                  <li><a href="../movie/indexmovie.html">ALL FILM</a></li>
+              </ul>
+          </li>
+             
+      </ul>
+      </ul>
+
+      <ul class="magazine">
+      <li><a href="../Magazine/magazine.html"> MAGAZINE </a></li>
+      </ul>
+
+      <ul class="crown">
+      <li><a href="../crown/crown.html"> CROWN </a></li>
+      </ul>
+
+      <ul class="doubleH">
+        <li> <img src="img/account.png"></li>
+        <li><a href=""> Double H</a> </li>
+        
+      </ul>
+
+      <ul class="dropdown">
+      <ul class="menu">
+          <li><a href="../movie/indexmovie.html"style="padding-top: 10px;"> <img src="img/dropdown-01.png"> </a>
+              <ul class="movie1"  style="padding-top: 13px;padding-left: 10px">
+                  <li><a href="../about/about.html"> ABOUT </a></li>
+                  <li><a href="../genre/genre.html">SETTINGS</a></li>
+                  <li><a href="#" onclick="toggle()">SIGN OUT</a></li>
+                  
+              </ul>
+          </li>
+             
+      </ul>
+      </ul>
+      </div>
+          
+          
+          </div>
+        </div>
+  
+<div id="popup">
+          
+          <a href="#" onclick="toggle()"><button><img src="img/x.svg"></button></a>
+          <img src=img/logo-01.png style="width: 50px;margin-left: 270px;">
+          <h3 style="margin-top:40px; font-family:NeologyRegular; font-size:30px; text-align:center;margin-bottom: 5px; color: black;">Signing Out</h3>
+          <h3 style="text-align: center; font-family: NeologyLight; font-size:26px;color: black;">Are you sure you want to sign out?</h3>
+          <a href="../external home/external home.html"><button class="try" style="width: 300px; height: 60px; background: #db7428; margin-left: 150px; margin-top: 40px; font-family:NeologyRegular;
+          letter-spacing: 1px;font-size: 26px;color: #fff;">Yes</button></a>
+        </div>
+        <script type="text/javascript">
+          function toggle(){
+            
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+          }
+        </script>
+
+<script type="text/javascript">
+      var lastScrollTop = 0;
+          navbar = document.getElementById("wrapper-mot");
+      window.addEventListener("scroll", function(){
+          var scrollTop = window.pageYOffset || document
+              .documentElement.scrollTop;
+          if (scrollTop > lastScrollTop){
+              navbar.style.top="-80px";
+          } else {
+              navbar.style.top="0";
+          }
+          lastScrollTop = scrollTop;
+      })
+    </script>
+
+	<div id="wrapper-hai">
+		<div class="container2">
+		
+		<div class="khoi-slide">
+			
+	<div class="cac-slide">
+    <div class="slide active">
+		<p class="tieude24px1"> SEPTEMBER </p>
+    <p class="tieude64px1"> NOMADLAND </p>
+    <p class="body24px1"> Nomadland is a 2020 American drama film based on the <br>2017 nonfiction book Nomadland: Surviving America in the <br>Twenty-First Century by Jessica Bruder. The film is written,<br> produced, directed, and edited by Chloé Zhao, and starsbr  Frances McDormand.. </p>
+    <a href="../watch/watch.html"><button class="play"> Play </button></a>
+    <a href="../infor/infor.html"><button class="more"> More </button></a>
+    <img src="img/2.jpg" >
+    
+    </div>
+
+
+
+		<div class="slide">
+      <p class="tieude24px1"> SEPTEMBER </p>
+    <p class="tieude64px1"> MINARI </p>
+    <p class="body24px1">A tender and sweeping story about what roots us, Minari <br> follows a Korean-American family that moves to an <br>Arkansas farm in search of their own American Dream. </p>
+    <a href=""><button class="play"> Play </button></a>
+    <a href=""><button class="more"> More </button></a>
+      <img src="img/6.jpg" >
+    </div>
+
+		<div class="slide">
+      <p class="tieude24px1"> SEPTEMBER </p>
+    <p class="tieude64px1"> LAMB </p>
+    <p class="body24px1"> In rural Iceland, a childless couple discover a strange and <br> unnatural newborn in their sheep barn. They decide to <br> raise her as their own, but sinister forces are determined to <br> return the creature to the wilderness that birthed her. </p>
+    <a href=""><button class="play"> Play </button></a>
+    <a href=""><button class="more"> More </button></a>
+    <img src="img/3.jpg">
+    </div>
+
+		<div class="slide">
+      <p class="tieude24px1"> SEPTEMBER 12 </p>
+    <p class="tieude64px1"> THE IRISHMAN </p>
+    <p class="body24px1"> The Irishman is a 2019 American drama film based on the <br>2017 nonfiction book Nomadland: Surviving America in the <br>Twenty-First Century by Jessica Bruder. The film is written,<br> produced, directed, and edited by Chloé Zhao, and starsbr  Frances McDormand.. </p>
+    <a href=""><button class="play"> Play </button></a>
+    <a href=""><button class="more"> More </button></a>
+    <img src="img/4.jpg" >
+    </div>
+		<div class="slide">
+      <p class="tieude24px1"> SEPTEMBER </p>
+    <p class="tieude64px1"> PARASITE </p>
+    <p class="body24px1">The struggling Kim family sees an opportunity when the <br> son starts working for the wealthy Park family. Soon, all of <br> them find a way to work within the same household and <br> start living a parasitic life. </p>
+    <a href=""><button class="play"> Play </button></a>
+    <a href=""><button class="more"> More </button></a>
+    <img src="img/5.jpg" >
+    </div>
+    
+
+	</div>
+
+	<div class="nut-slide">
+<!-- 		<span id="btn-prev"><img src="img/pngwing11.png"></span>
+		<span id="btn-next"><img src="img/pngwing.png"></span> -->
+		<ul>
+			<li class="active_nut"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</div>	
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+		
+		
+	</div>
+</div>
+	
+	<div id="wrapper-ba">
+		
+		 <div class="owl-container">
+		 	<p class="tieude36px"><a href="../topfilm/topfilm.html">TOP TRENDING </a></p>
+<section id="demos">
+      <div class="row">
+
+        <div class="large-12 columns">
+          <div class="owl-carousel owl-theme">
+           
+            <a href="../infor/infor.html"><div class="item2">
+              <div class="item1">
+               <img src="img/8.png">
+              </div>   
+              <div class="tieude24px">Parasite </div>
+              <div class="body24px"> Drama</div>
+            </div></a>
+
+             <div class="item2">
+              <div class="item1">
+                <img src="img/11.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Nomadland </div>
+                <div class="body24px"> Adventure</div>
+            </div>
+
+             <div class="item2">
+              <div class="item1">
+                <img src="img/22.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">My Prince Edward </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+               <div class="item2">
+              <div class="item1">
+                <img src="img/10.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">A Hometown in Heart </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/12.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Apocalypse now  </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/13.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Schindler’s </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/14.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">The Jungle Book </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/15.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">The Lobster </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/16.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Life of Pi </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/17.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">The Goodfather II </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/18.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Chiristine </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/19.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Midnight express </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+
+
+
+
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+		
+	</div>
+
+
+
+		
+	</div>
+
+  <div id="wrapper-ba">
+    
+     <div class="owl-container">
+      <p class="tieude36px"> <a href="../genre/genre.html">GENRES</a> </p>
+<section id="demos">
+      <div class="row">
+
+        <div class="large-12 columns">
+          <div class="owl-carousel owl-theme">
+           
+            <div class="item2">
+              <div class="item1">
+                <img src="img/20.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Christine </div>
+                <div class="body24px"> Drama, History</div>
+            </div>
+
+             <div class="item2">
+              <div class="item1">
+                <img src="img/23.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Get out </div>
+                <div class="body24px"> Comedy</div>
+            </div>
+
+             <div class="item2">
+              <div class="item1">
+                <img src="img/24.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">The Saragossa Manuscript </div>
+                <div class="body24px"> Drama, History</div>
+            </div>
+
+               <div class="item2">
+              <div class="item1">
+                <img src="img/25.jpg">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Lo and be hold  </div>
+                <div class="body24px"> Comedy</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/26.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Home Alone  </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/27.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Schindler’s </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/28.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">The Jungle Book </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/34.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">The Lobster </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/35.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Life of Pi </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/36.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">The Goodfather II </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/37.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Chiristine </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/38.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Midnight express </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+
+
+
+
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+    
+  </div>
+
+
+
+    
+  </div>
+<div id="wrapper-ba">
+    
+     <div class="owl-container">
+      <p class="tieude36px"><a href="../mylist/mylist.html">CURRENTLY WATCHING</a> </p>
+<section id="demos">
+      <div class="row">
+
+        <div class="large-12 columns">
+          <div class="owl-carousel owl-theme">
+           
+            <div class="item2">
+              <div class="item1">
+                <img src="img/24.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Parasite </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+             <div class="item2">
+              <div class="item1">
+                <img src="img/43.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Nomadland </div>
+                <div class="body24px"> Adventure</div>
+            </div>
+
+             <div class="item2">
+              <div class="item1">
+                <img src="img/9.jpg">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">My Prince Edward </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+               <div class="item2">
+              <div class="item1">
+                <img src="img/14.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">A Hometown in Heart </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/16.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Apocalypse now  </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/17.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Schindler’s </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/18.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">The Jungle Book </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/19.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">The Lobster </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/20.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Life of Pi </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/21.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">The Goodfather II </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/18.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Chiristine </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/19.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Midnight express </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+
+
+
+
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+    
+  </div>
+
+
+
+    
+  </div>
+<div id="wrapper-ba">
+    
+     <div class="owl-container">
+      <p class="tieude36px"> <a href="../mylist/mylist.html">WATCH LATER </a> </p>
+<section id="demos">
+      <div class="row">
+
+        <div class="large-12 columns">
+          <div class="owl-carousel owl-theme">
+           
+            <div class="item2">
+              <div class="item1">
+                <img src="img/66.jpg">
+                <div class="khung">
+                  <img src="img/play1.png"></div>
+              </div>
+                <div class="tieude24px">Parasite </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+             <div class="item2">
+              <div class="item1">
+                <img src="img/67.jpg">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Nomadland </div>
+                <div class="body24px"> Adventure</div>
+            </div>
+
+             <div class="item2">
+              <div class="item1">
+                <img src="img/68.jpg">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">My Prince Edward </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+               <div class="item2">
+              <div class="item1">
+                <img src="img/69.jpg">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">A Hometown in Heart </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/70.jpg">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Apocalypse now  </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/71.jpg">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Schindler’s </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/14.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">The Jungle Book </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/15.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">The Lobster </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/16.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Life of Pi </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/17.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">The Goodfather II </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/18.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Chiristine </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+                <div class="item2">
+              <div class="item1">
+                <img src="img/19.png">
+                <div class="khung">
+                  <img src="img/play1.png">
+                </div>
+              </div>
+                <div class="tieude24px">Midnight express </div>
+                <div class="body24px"> Drama</div>
+            </div>
+
+
+
+
+
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+    
+  </div>
+
+
+
+    
+  </div>
+
+
+
+</body>
+</html>

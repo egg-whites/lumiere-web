@@ -1,0 +1,171 @@
+.code-bg{
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
+.container{
+	font-family: "tt";
+	width: 1920px;
+	height: 100%;
+	/*background: #ebe9e8;*/
+	/*background-image: url(https://img.freepik.com/free-photo/paperboard-texture_95678-72.jpg?size=626&ext=jpg);*/
+		
+	margin: 0 auto;
+}
+
+/*HEADER*/
+.header{
+	font-family: "neo-reg";
+	width: 1920px;
+	height: 80px;
+	background-image: url(../bgr6.png);
+	
+	position: sticky;
+	top: 0px;
+	z-index: 2;
+}
+
+.logo img{
+	height: 23px;
+	margin-left: 175px;
+	float: left;
+	margin-top: 28px;
+}
+
+.nav-bar nav{
+	float: left;
+	margin-left: 423px;
+	margin-top: 28px;
+}
+.nav-bar li{
+	font-size: 20px;
+	list-style: none;
+	float: left;
+	margin-right: 147px;
+	text-transform: uppercase;
+}
+
+.nav-bar-2 nav{
+	float: right;
+	margin-top: 28px;
+	margin-right: 175px;
+}
+.nav-bar-2 li{
+	font-size: 20px;
+	list-style: none;
+	float: left;
+	margin-left: 78px;
+	text-transform: uppercase;
+}
+.nav-bar-2 img{
+	height: 34px;
+	margin-top: -5px;
+}
+
+
+
+
+
+
+
+.bg img{	
+	position: ;
+	width: 1920px;
+	height: 1080px;
+	top: 0px;
+	
+}
+.bg{
+	position: relative;
+	width: 1920px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.login{
+	position: absolute;
+	width: 800px;
+	height: 700px;
+	background: #fff;
+}
+.login h6{
+	font-family: neo-reg;
+	font-size: 24px;
+	color: #db7428;
+	margin-top: 35px;
+	margin-left: 240px;
+}
+.login hr{
+	border: none;
+	background: #aeaeae;
+	width: auto;
+	height: 0.5px;
+	
+	margin-top: 15px;
+}
+
+
+
+
+
+#form-login{
+	justify-content: center;
+	align-items: center;
+	max-width: 500px;
+	flex-grow: 1;
+	padding: 150px 150px 100px;
+}
+.form-group{
+	border-bottom-width: 500px;
+	border-bottom: 0.5px solid #949494;
+	margin-top: 15px;
+	
+	display: flex;
+}
+#eye i{
+	margin-top: 20px;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+.form-input{
+	background: transparent;
+	border: 0;
+	outline: 0;
+	color: black;
+	font-family: neo-light;
+	font-size: 20px;
+	flex-grow: 1;
+}
+.form-input::placeholder{
+	color: #a9a9a9;
+	font-family: neo-light;
+	font-size: 20px;
+}
+.form-submit{
+	margin-top: 30px;
+	width: 500px;
+	height: 50px;
+	background: #db7428;
+	border: none;
+	font-family: neo-bold;
+	font-size: 24px;
+	color: white;
+}
+.form-submit:hover {
+	background: #c55c03;
+}
+
+.or{
+	margin-left: 123px;
+	margin-top: 15px;
+	font-family: neo-reg;
+	font-size: 20px;
+
+}
+.or hr{
+	margin-right: 15px;
+	margin-left: 15px;
+	border: none;
+	width: 90px;
+}

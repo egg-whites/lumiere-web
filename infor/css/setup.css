@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	letter-spacing:;
+}
+
+@font-face{
+	font-family: "tt-bold";
+	letter-spacing: 10px;
+	src:  url("../interface/TTInterfaces-Bold.ttf");
+}
+@font-face{
+	font-family: "tt-reg";
+	src:  url("../interface/TTInterfaces-Regular.ttf");
+}
+@font-face{
+	font-family: "neo-bold";
+	src:  url("../font/Neology Deco W03 Bold.ttf");
+}
+@font-face{
+	font-family: "neo-med";
+	src:  url("../font/Neology Deco W03 Medium.ttf");
+}
+
+@font-face{
+	font-family: "neo-reg";
+	src:  url("../font/Neology Deco W03 Regular.ttf");
+}
+
+@font-face{
+	font-family: "neo-light";
+	src:  url("../font/Neology Deco W03 Light.ttf");
+}
+
+
+body, button{
+	font-family: "";
+	color: #3d3d3d;
+}
+
+a{
+	text-decoration: none;
+	color: #3d3d3d;
+}
+html{
+	scroll-behavior: smooth;
+}
+/*hr{
+	display: ;
+	margin-top: 23px;
+	margin-bottom: 23px;
+	width: auto;
+	color: #14a58c;
+}*/
+
+

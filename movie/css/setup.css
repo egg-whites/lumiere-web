@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding:0;
+	outline: none;
+}
+@font-face{
+	font-family: NeologyBold;
+	src: url(../font/NeologyDecoW03Bold.ttf);
+}
+@font-face{
+	font-family: NeologyLight;
+	src: url(../font/NeologyDecoW03Light.ttf);
+	
+}
+@font-face{
+	font-family: NeologyMedium;
+	src: url(../font/NeologyDecoW03Medium.ttf);
+	
+}
+@font-face{
+	font-family: NeologyRegular;
+	src: url(../font/NeologyDecoW03Regular.ttf);
+	
+}
+
+@font-face{
+	font-family: TTInterfacesBold;
+	src: url(../font/TTInterfaces-Bold.ttf);
+	
+}
+@font-face{
+	font-family: TTInterfacesDemiBold;
+	src: url(../font/TTInterfaces-DemiBold.ttf);
+	
+}
+
+a{
+	text-decoration: none;
+	color:#000000;
+}
+html{
+	scroll-behavior: smooth;
+}

@@ -1,0 +1,431 @@
+.container1{
+    width: 1510px;
+    height: 100%;
+    /*background-image: url(../img/bgr6.jpg);*/
+    /*background-color: #ccc;*/
+    margin: 0 auto;
+    
+}
+.container #blur.active{
+    filter: grayscale(50%);
+    /*pointer-events: none;*/
+    user-select: none;
+}
+#popup{
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .3);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 
+
+}
+
+#popup.active{
+    top: 10%;
+    visibility: visible;
+    opacity: 1;
+
+    transition: 0.5s;
+    z-index: 2;
+}
+#popup img{
+    margin-left: 250px;
+}
+#popup button{
+    margin-left: 280px;
+    cursor: pointer;
+    border-style: none;
+    background: none;
+}
+.try button:hover{
+    background: #c55c03;
+}
+
+/*THANH MENU*/
+
+#wrapper-mot{
+    width: 100%;
+    height: 80px;
+    background-image: url(../img/bgr6.jpg);
+    /*background: #266;*/
+    position: fixed;
+    z-index: 10;
+}
+#wrapper-mot ul{
+    float: left;
+    list-style: none;
+}
+.nav-bar1{
+    margin-top: -15px;
+    
+}
+.logo1 img{
+    height: 50px;
+    padding-top: 20px;
+}
+.search1{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+form{
+    position: relative;
+}
+
+.search1 input{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: -25px;
+    background: transparent;
+    padding: 0 40px;
+    border: none;
+    font-size: 25px;
+    font-family: NeologyRegular;
+    border-bottom: 1px solid #aaa;
+
+}
+.search1 input:hover{
+    border-bottom: 1px solid #555;
+
+}
+.search1 img{
+    height: 25px;
+    margin-top: 10px;
+    /*position: absolute;*/
+    z-index: 1;
+}
+.home1 {
+    margin-left: 530px;
+    margin-top: 40px;
+    font-family: NeologyRegular;
+    font-size:  20px;
+}
+.magazine {
+    margin-left: 830px;
+    margin-top: -50px;
+    font-family: NeologyRegular;
+    font-size:  20px;
+}
+.crown{
+    margin-left: 1010px;
+    margin-top: -50px;
+    font-family: NeologyRegular;
+    font-size:  20px;
+}
+.doubleH{
+    margin-left: 1160px;
+    margin-top: -60px;
+    font-family: NeologyRegular;
+    font-size:  20px;
+}
+.doubleH li{
+    float: left;
+    /*background-color: red;*/
+    margin-left: 10px;
+}
+.doubleH img{
+    height: 27px;
+}
+.doubleH li:nth-child(2){
+    font-size: 20px;
+    font-family: NeologyLight; 
+    margin-top: 10px;
+    color: #000;
+}
+
+
+
+.dropdown{
+    margin-left: 1450px;
+    margin-top: -110px;
+    font-family: NeologyRegular;
+    font-size:  20px;
+}
+.movie , .dropdown{
+    position:relative;
+    font-family: NeologyRegular;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.dropdown img{
+    height: 20px;
+    margin-top: 10px;
+}
+.menu{
+    display:block;
+
+}
+.movie1{
+    margin-left: -10px;
+    margin-top: 3px;
+}
+.menu li,.menu li a, .movie1 li a{
+    display:block;
+    text-align:center;
+    /* background-image: url(../img/bgr6.jpg);*/
+    color:#000;
+}
+.menu li{
+    float:left;
+    list-style:none;
+    height:50px;
+    width:150px;
+    padding:0px;
+
+       
+}
+
+ .menu li a, .movie1 li a{
+   text-decoration:none;
+   width: 150px;
+   height: 50px;
+
+}
+ 
+ .menu .movie1{
+    visibility:hidden;
+    padding:0px;
+    display:block;
+}
+.menu li:hover .movie1{
+    visibility:visible;
+   /* background-image: url(../img/bgr6/jpg);
+    position: absolute;
+    z-index: 4;*/
+}
+.menu li:hover a {
+    /*padding: 10px 15px;*/
+    width: 150px;
+    height: 50px;
+    /*background-image: url(../img/bgr6.jpg);*/
+    color: #db7428;
+
+
+}
+.menu li:hover .movie1 li a{
+    margin-left: -5px;
+    /*padding: 10px 15px;*/
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+   /* background-image: url(../img/bgr6.jpg);*/
+    background-color: #EBE6D2;
+    color: #000;
+    }
+.menu li .movie1 li a:hover{
+    background-color: #db7428;
+}
+/*KET THUC THANH MENU*/
+.wrapper-1{
+    width: 100%;
+    height:1600px;
+    background-image: url(../img/bgr6.jpg);
+}
+.container {
+            width: 1515px;  
+            margin: auto;  
+            background-image: url(../img/bgr6.jpg);
+        }
+        /* định dạng thẻ div chưa các button tab */
+.tab {
+            overflow: hidden; 
+            margin-left: 350px;
+            margin-top: 50px;
+            margin-bottom: 40px;
+            border: 1px solid #aaa; 
+            width: 810px;
+           /* background-color: #f1f1f1; */
+            background-image: url(../img/bgr6.jpg)
+        }
+
+ 
+.tablinks{
+            width: 135px;
+            height: 43px;
+            font-family: NeologyRegular;
+            font-size: 20px;
+    }  
+  /* định dạng các button tab */
+.tab button {
+            background-color: inherit; 
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 12px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+
+        /* đổi màu khi một button tab được hover */
+.tab button:hover {
+            background-color: #ccc;
+        }
+
+        /* đổi màu nền cho tab đang được hiển thị nội dung */
+.tab button.active {
+            background-color: #db7428;
+        }
+
+        /* định dạng nội dung hiển thị */
+.tabcontent {
+            display: none;
+            padding: 6px 12px;
+           /* border: 1px solid #ccc;*/
+            border-top: none;
+            margin-left: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+.tabcontent img{
+            margin-left: 12px;
+            margin-top: 10px;
+            height: 183px;
+            width: 128px;
+}
+.tabcontent img:hover{
+
+            background: black ;
+            opacity: 0.92;
+            transition: 0.3s;
+
+}
+
+.head img{
+            margin-left: 360px;
+            margin-top: 100px;
+}
+.tag{
+    font-family: NeologyRegular;
+    font-size: 16px;
+    margin-left: 42px;
+    color: #5c5c5c;
+    margin-top: 10px;
+
+}
+.tag1{
+    font-family: TTInterfacesBold;
+    color: #db7428;
+}
+.tag2{
+    margin-top: -10px;
+}
+/*PHAN CHAN TRANG */
+.container2{
+    width: 1920px;
+    height: 0px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+  #wrapper-bon{
+        width: 100%;
+        height: 410px;
+        /*background: #ece7d3;*/
+        background-image: url(../img/bgr6.jpg);
+        /*background: blue;*/
+        
+    }
+    .chantrang{
+        width: 100%;
+        height: 320px;
+        position: relative;
+        padding-top: 90px;
+    }
+    .nenchantrang{
+        width: 100%;
+        height: 320px;
+        background: #000;
+        opacity: 0.7;
+        /*position: relative;*/
+        margin: 0 auto;
+    }
+   .logodu{
+        position: absolute;
+        /*background: red;*/
+        margin-top: -270px;
+        margin-left: 175px;
+
+    }
+    .logodu img{
+        height: 50px;
+    }
+    .textchantrang{
+        font-family: NeologyLight;
+        font-size: 24px;
+        color: #afafaf;
+        margin-top: -200px;
+        margin-left: 175px;
+        position: absolute;
+        line-height: 28px;
+    }
+    .Regulation{
+        position: absolute;
+        /*background: red;*/
+        color: #afafaf;
+        list-style: none;
+        margin-top: -270px;
+        margin-left: 950px;
+        font-size: 24px;
+        font-family: NeologyLight;
+        /*line-height: 20px;*/
+    }
+    .Regulation li{
+        margin-top: 25px;
+    }
+    .Regulation li:first-child{
+        font-family: NeologyRegular;
+        color: #ebe9e8;
+        letter-spacing: 1px;
+    }
+    .Contact{
+        position: absolute;
+        /*background: red;*/
+        margin-top: -240px;
+        margin-left: 1350px;
+        list-style: none;
+        font-size: 24px;
+        font-family: NeologyLight;
+    }
+
+    .Contact li:first-child{
+        font-family: NeologyRegular;
+        color: #ebe9e8;
+        letter-spacing: 1px;
+        /*margin-top: 25px;*/
+    }
+    .Contact img{
+        margin-top: 20px;
+        width: 35px;
+        height: auto;
+
+    }
+    .chantrang hr{
+        width: 100%;
+        height: 1px;
+        background-color: #777;
+        border:none;
+        position: absolute;
+        margin-top: -40px;
+    }
+    .copy2021{
+        font-family: NeologyLight;
+        font-size: 20px;
+        color: #afafaf;
+        position: absolute;
+        margin-top: -30px;
+        margin-left: 175px;
+
+    }
+/*KET THUC PHAN CHAN TRANG*/

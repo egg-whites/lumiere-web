@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.">
+    <meta name="author" content="David Deutsch">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+	<title> about </title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <meta name="description" content="WaltzerJS - jQuery Carousel Plugin by Scott Carmichael" />
+    <meta name="keywords" content="WaltzerJS, jQuery, Carousel, Plugin, Scott Carmichael" />
+	
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="owl/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/setup.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="../owl.carousel/assets/css/bootstrapTheme.css" rel="stylesheet">
+    <link href="../owl.carousel/assets/css/custom.css" rel="stylesheet">
+
+	<script type="text/javascript"src="js/all.min.js"	></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery1.min.js"></script>
+	
+   
+	<script type="text/javascript" src="js/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+ 	<script type="text/javascript" src="js/script.js"></script>
+ 	<script type="text/javascript"src="js/all.js"	></script>
+
+
+</head>
+<body>
+	<!-- THANH MENU -->
+	<div id="wrapper-mot">
+	    <div class="container1">
+		    <div class="nav-bar1">
+		    <ul class="logo1">
+		      <img src="img/logo-01.png">
+		    </ul> 
+		    
+		    <ul class="search1">
+		      <form>
+		      <img src="img/search-01.png"> 
+		      <input type="" name="">
+		      </form>
+		    </ul>
+
+		    <ul class="home1">
+		      <li><a href="../internal home/internal home.html"> HOME </a></li>
+		    </ul>
+
+
+
+
+		      <ul class="movie">
+		      <ul class="menu">
+		          <li><a href="../movie/indexmovie.html" style="padding-top: 10px;"> MOVIES </a>
+		              <ul class="movie1" style="padding-top: 1px;padding-left: 10px">
+		                  <li><a href="../topfilm/topfilm.html"> TOP FILM </a></li>
+		                  <li><a href="../genre/genre.html">GENRES</a></li>
+		                  <li><a href="../mylist/mylist.html">MY LIST</a></li>
+		                  <li><a href="../movie/indexmovie.html">ALL FILM</a></li>
+		              </ul>
+		          </li>
+		             
+		      </ul>
+		      </ul>
+
+		      <ul class="magazine">
+		      <li><a href="../Magazine/magazine.html"> MAGAZINE </a></li>
+		      </ul>
+
+		      <ul class="crown">
+		      <li><a href="../externalhome/externalhome.html"> CROWN </a></li>
+		      </ul>
+
+		      <ul class="doubleH">
+		        <li> <img src="img/account.png"></li>
+		        <li><a href=""> Double H</a> </li>
+		        
+		      </ul>
+
+		      <ul class="dropdown">
+		      <ul class="menu">
+		          <li><a href="../movie/indexmovie.html"style="padding-top: 10px;"> <img src="img/dropdown-01.png"> </a>
+		              <ul class="movie1"  style="padding-top: 13px;padding-left: 10px">
+		                  <li><a href="../about/about.html"> ABOUT </a></li>
+		                  <li><a href="../settings/settings.html">SETTINGS</a></li>
+		                  <li><a href="#" onclick="toggle()">SIGN OUT</a></li>
+		                  
+		              </ul>
+		          </li>
+		             
+		      </ul>
+		      </ul>
+		      </div>
+		          
+		          
+		          </div>
+        </div>
+        <div id="popup">
+          
+          <a href="#" onclick="toggle()"><button><img src="img/x.svg"></button></a>
+          <img src=img/logo-01.png style="width: 50px;margin-left: 270px;">
+          <h3 style="margin-top:40px; font-family:NeologyRegular; font-size:30px; text-align:center;margin-bottom: 5px; color: black;">Signing Out</h3>
+          <h3 style="text-align: center; font-family: NeologyLight; font-size:26px;color: black;">Are you sure you want to sign out?</h3>
+          <a href="../external home/external home.html"><button class="try" style="width: 300px; height: 60px; background: #db7428; margin-left: 150px; margin-top: 40px; font-family:NeologyRegular;
+          letter-spacing: 1px;font-size: 26px;color: #fff;">Yes</button></a>
+        </div>
+        <script type="text/javascript">
+          function toggle(){
+            
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+          }
+        </script>
+        <script type="text/javascript">
+			var lastScrollTop = 0;
+					navbar = document.getElementById("wrapper-mot");
+			window.addEventListener("scroll", function(){
+					var scrollTop = window.pageYOffset || document
+							.documentElement.scrollTop;
+					if (scrollTop > lastScrollTop){
+							navbar.style.top="-80px";
+					}	else {
+							navbar.style.top="0";
+					}
+					lastScrollTop = scrollTop;
+			})
+		</script>
+<!-- KET THUC PHAN MENU -->
+
+	
+<!-- PHAN NOI DUNG -->
+          
+	<div id="wrapper-hai">
+		<div class="container1">
+		<center>
+			<h1> ABOUT LUMIÈRE</h1>
+			<div class="lumiere"><img src="img/52.png"></div>
+			<p class="text1">
+			<span class="text">Lumière brothers, </span>
+			<br>
+			<br>French inventors and pioneer manufacturers of photographic 
+			<br>equipment who devised an early motion-picture camera and projector 
+			<br>called the Cinématographe (“cinema” is derived from this name). 
+			<br>Auguste Lumière which is considered the first motion picture.
+			<br>
+			<br> --editor--
+			</p>
+		</center>
+		<center>
+			<div class="about1">
+				<img src="img/51.png">
+				<p class="text2"> Lumière is...</p>
+				
+				
+			</div>
+		</center>
+
+		<center>
+			<div class="service">
+				<p class="text3"> A Streamer service </p>
+				<p class="text4">A film, also called a movie, motion picture or moving picture, is a work of visual art used to simulate experiences
+				<br>These images are generally accompanied by sound, and more rarely, other sensory stimulations</p>
+				
+			</div>
+		</center>
+
+		<div class="about2">
+			<div class="about21" >
+				<img src="img/53.png">
+				
+			</div>
+			<div class="about21" >
+				<img src="img/54.png">
+
+				
+			</div>
+			
+		</div>
+
+		<center>
+			<div class="service">
+				<p class="text3"> Movies news </p>
+				<p class="text4">The moving images of a film are created by photographing actual 
+				scenes with a motion-picture <br>drawings or miniature
+				model using traditional animation techniques</p>
+				
+			</div>
+		</center>
+
+		<div class="about3">
+			<div class="about31">
+				<img src="img/55.png">
+				<p class="text5" style="">Daugher of mine</p>
+				<p class="text6">A look at the new landscape of cinema <br>distribution in the  and project</p>
+				<p class="text7">Conor William   02 AUG 2021</p>
+				
+			</div>
+			<div class="about31">
+				<img src="img/56.png">
+				<p class="text5">Daugher of mine</p>
+				<p class="text6">A look at the new landscape of cinema <br>distribution in the  and project</p>
+				<p class="text7">Conor William   02 AUG 2021</p>
+			</div>
+			<div class="about31">
+				<img src="img/57.png">
+				<p class="text5">Daugher of mine</p>
+				<p class="text6">A look at the new landscape of cinema <br>distribution in the  and project</p>
+				<p class="text7">Conor William   02 AUG 2021</p>
+			</div>
+			
+		</div>
+
+
+		<center>
+			<div class="service">
+				<p class="text3"> Review </p>
+				<p class="text4">Join the world’s biggest
+					comunity of film lover and <br> plore and discuss 
+					explore and discuss great cinema 11 234 069 members
+				
+			</div>
+		</center>
+
+		<div class="about4">
+			<div class="about41">
+				<img src="img/58.png">
+				<p class="text5"> Ha Do </p>
+				<p class="text8">Thank Lumière for good experiences! </p>
+				
+			</div>
+			<div class="about41">
+				<img src="img/59.png">
+				<p class="text5"> Huy Ta </p>
+				<p class="text8">A great concept and a good setup should have delivered </p>
+			</div>
+			<div class="about41">
+				<img src="img/60.png">
+				<p class="text5"> Mai Ho </p>
+				<p class="text8"> So amazing </p>
+				</p>
+			</div>
+			
+		</div>
+
+		<center>
+			<div class="service">
+				<div class="hoang">
+				<p class="text3"> Our team </p>
+				<p class="body24px"> Producer </p>
+				<p class="body22px"> Hoang Le </p>
+				<p class="body24px1">It is also known as visual communication design, <br>
+				visual design or editorial design. 
+				<br>The role of the graphic designer in the communication</p> 
+				<div class="imgabout1"><img src="img/61.png"></div>
+				</div>
+
+				<div class="nam">
+				<p class="body24px"> Graphic designer </p>
+				<p class="body22px"> Nam Ng </p>
+				<p class="body24px1">It is also known as visual communication design, <br>
+				visual design or editorial design. 
+				<br>The role of the graphic designer in the communication</p> 
+				<div class="imgabout2"><img src="img/62.png"></div>
+				</div>
+
+				<div class="duyen">
+				<p class="body24px"> Publisher </p>
+				<p class="body22px"> Duyen Tran </p>
+				<p class="body24px1">It is also known as visual communication design, <br>
+				visual design or editorial design. 
+				<br>The role of the graphic designer in the communication</p> 
+				<div class="imgabout3"><img src="img/63.png"></div>
+				</div>
+			
+				
+			</div>
+		</center>
+
+		
+
+
+
+
+	         
+	     
+	    </div>
+	  </div> 
+	  
+	</div>
+	  
+
+
+	</div>
+</div><!-- 
+KET THUC PHAN NOI DUNG -->
+
+<!-- PHAN CHAN TRANG -->
+	
+	<div id="wrapper-bon">
+    
+    <div class="chantrang">
+          <div class="nenchantrang"></div>
+          <div class="container2">
+             <div class="logodu"><img src="img/logodu.png"></div>
+            
+            <p class="textchantrang">A film, also called a movie, motion picture or moving picture, is a <br>work of visual art used to simulate experiences that communicate <br> ideas, stories, perceptions, feelings, beauty, or atmosphere through <br> the use of moving images.</p>
+
+            <ul class="Regulation">
+              <li> Regulation</li>
+              <li> Terms of use</li>
+              <li> Privacy policy</li>
+              <li> Copyright and liability</li>
+            
+            </ul>
+
+            <ul class="Contact">
+              <li> Contact</li>
+              <li><img src="img/fb-icon.svg"> </li>
+              <li><img src="img/iconinsta.png"> </li>
+              <li><img src="img/iconmail.png"></li>
+              
+            </ul>
+
+            <hr>
+
+            <div class="copy2021">
+              Copyright 2021 Lumière  |  All Rights Reversed.
+            </div>
+            
+          </div>
+
+    </div>
+  </div>
+ <!-- KET THUC PHAN CHAN TRANG  -->
+	  
+
+</body>
+</html>
