@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+@font-face{
+	font-family: "tt-bold";
+	src:  url("../interface/TTInterfaces-Bold.ttf");
+}
+@font-face{
+	font-family: "neo-bold";
+	src:  url("../font/Neology Deco W03 Bold.ttf");
+}
+@font-face{
+	font-family: "neo-med";
+	src:  url("../font/Neology Deco W03 Medium.ttf");
+}
+
+@font-face{
+	font-family: "neo-reg";
+	src:  url("../font/Neology Deco W03 Regular.ttf");
+}
+
+@font-face{
+	font-family: "neo-light";
+	src:  url("../font/Neology Deco W03 Light.ttf");
+}
